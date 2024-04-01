@@ -6,7 +6,7 @@ import SearchBox from './SearchBox';
 
 
 const apiOptions = {
-  apiKey: 'AIzaSyD6cSBoz2RlHAjyMUfVixDJxmorTenD_8U',
+  apiKey: process.env.MAP_API,
   version: "beta"
 };
 
